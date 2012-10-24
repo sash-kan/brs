@@ -23,3 +23,7 @@ g/\c^BuildRequires:/s!\<gnome-speech-devel\>!pkgconfig(gnome-speech-1.0)!c
 g/\c^BuildRequires:/s!\<libwnck-devel\>!pkgconfig(libwnck-1.0)!c
 g/\c^BuildRequires:/s!\<libxml2-devel\>!pkgconfig(libxml-2.0)!c
 g/\c^BuildRequires:/s!\<usb0.1-devel\>!pkgconfig(libusb)!c
+g/\c^BuildRequires:/s!\<slang-devel\>!pkgconfig(slang)!c
+g/\c^BuildRequires:/s!\<ncurses-devel\>!pkgconfig(ncurses)!c
+g/\c^BuildRequires:/s!\<libvirt-devel\>!pkgconfig(libvirt)!c
+g/\c^BuildRequires:/s!\<nss-devel\>!pkgconfig(nss)!c
