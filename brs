@@ -23,3 +23,11 @@ g/^BuildRequires:/s!\<gnome-speech-devel\>!pkgconfig(gnome-speech-1.0)!c
 g/^BuildRequires:/s!\<libwnck-devel\>!pkgconfig(libwnck-1.0)!c
 g/^BuildRequires:/s!\<libxml2-devel\>!pkgconfig(libxml-2.0)!c
 g/^BuildRequires:/s!\<usb0.1-devel\>!pkgconfig(libusb)!c
+
+"popt-devel libpopt-devel
+g/^BuildRequires:/s!\<libpopt-devel\>!pkgconfig(popt)!c
+g/^BuildRequires:/s!\<popt-devel\>!pkgconfig(popt)!c
+
+"uuid-devel libuuid-devel
+g/^BuildRequires:/s!\<uuid-devel\>!pkgconfig(uuid)!c
+g/^BuildRequires:/s!\<libuuid-devel\>!pkgconfig(uuid)!c
