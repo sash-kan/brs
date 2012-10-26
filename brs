@@ -27,3 +27,11 @@ g/\c^BuildRequires:/s!\<slang-devel\>!pkgconfig(slang)!c
 g/\c^BuildRequires:/s!\<ncurses-devel\>!pkgconfig(ncurses)!c
 g/\c^BuildRequires:/s!\<libvirt-devel\>!pkgconfig(libvirt)!c
 g/\c^BuildRequires:/s!\<nss-devel\>!pkgconfig(nss)!c
+
+"popt-devel libpopt-devel
+g/^BuildRequires:/s!\<libpopt-devel\>!pkgconfig(popt)!c
+g/^BuildRequires:/s!\<popt-devel\>!pkgconfig(popt)!c
+
+"uuid-devel libuuid-devel
+g/^BuildRequires:/s!\<uuid-devel\>!pkgconfig(uuid)!c
+g/^BuildRequires:/s!\<libuuid-devel\>!pkgconfig(uuid)!c
