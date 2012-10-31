@@ -37,7 +37,16 @@ g/\c^BuildRequires:/s!\<libnotify-devel\>!pkgconfig(libnotify)!c
 g/\c^BuildRequires:/s!\<libmusicbrainz-devel\>!pkgconfig(libmusicbrainz)!c
 g/\c^BuildRequires:/s!\<gstreamer0.10-devel\>!pkgconfig(gstreamer-0.10)!c
 g/\c^BuildRequires:/s!\<libxslt-proc\>!pkgconfig(libexslt)!c
+g/\c^BuildRequires:/s!\<libxslt-devel\>!pkgconfig(libxslt)!c
 g/\c^BuildRequires:/s!\<libgcal-devel\>!pkgconfig(libgcal)!c
+g/\c^BuildRequires:/s!\<libgnome-vfs2-devel\>!pkgconfig(gnome-vfs-2.0)!c
+g/\c^BuildRequires:/s!\<gnomeui2-devel\>!pkgconfig(libgnomeui-2.0)!c
+g/\c^BuildRequires:/s!\<gnutls-devel\>!pkgconfig(gnutls)!c
+g/\c^BuildRequires:/s!\<libgnet2-devel\>!pkgconfig(gnet-2.0)!c
+g/\c^BuildRequires:/s!\<libxscrnsaver-devel\>!pkgconfig(xscrnsaver)!c
+g/\c^BuildRequires:/s!\<libgalago-devel\>!pkgconfig(libgalago)!c
+g/\c^BuildRequires:/s!\<libxrender-devel\>!pkgconfig(xrender)!c
+"g/\c^BuildRequires:/s!\<\>!!c
 
 "popt-devel libpopt-devel
 g/^BuildRequires:/s!\<libpopt-devel\>!pkgconfig(popt)!c
